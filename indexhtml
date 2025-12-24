@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zara Therapy Clinic</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="1style.css">
+  <link rel="stylesheet" href="2style.css">
+  <link rel="stylesheet" href="3style.css">
+  <link rel="stylesheet" href="4style.css">
+  <link rel="stylesheet" href="5.style.css">
+  <link rel="stylesheet" href="6style.css">
+</head>
+<body>
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <div class="container-fluid">
+      <img src="logo.png" alt="Zara Therapy Clinic" class="navbar-logo">
+      <a class="navbar-brand" href="#home">Zara Therapy Clinic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#therapists">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <div class="cart-bar" onclick="openCart()">🛒<span id="cartCount"></span></div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<header class="hero" id="home">
+  <div class="hero-content">
+    <h1 data-aos="fade-down">Healthy mind, Healthy you</h1>
+    <p data-aos="fade-up">
+      Welcome to Zara Therapy Clinic, where your mental and emotional well-being comes first.
+      Our compassionate therapists provide personalized sessions in a calm and supportive environment.
+      Your journey to a balanced and peaceful mind starts here.
+    </p>
+    <a href="#therapists">
+      <button class="hero-btn" data-aos="fade-right" data-aos-delay="100">Book Sessions</button>
+    </a>
+</div>
+
+  <!-- BLOB SIDE -->
+  <div class="blob">
+    <svg viewBox="0 0 520 380" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#aeeeff"/>
+          <stop offset="100%" stop-color="#4f8cff"/>
+        </linearGradient>
+
+        <clipPath id="blobClip">
+          <path d="
+            M90 60
+            C160 -10, 360 0, 430 90
+            C500 180, 450 310, 300 340
+            C160 370, 40 300, 60 180
+            C20 100, 40 90, 90 60
+            Z
+          "/>
+        </clipPath>
+      </defs>
+
+      <!-- blob bg -->
+      <path d="
+        M90 60
+        C160 -10, 360 0, 430 90
+        C500 180, 450 310, 300 340
+        C160 370, 40 300, 60 180
+        C20 100, 40 90, 90 60
+        Z
+      " fill="url(#grad)"/>
+
+      <!-- image inside blob -->
+      <image
+  href="https://images.unsplash.com/photo-1604881991720-f91add269bed"
+  width="520"
+  height="380"
+  clip-path="url(#blobClip)"
+  preserveAspectRatio="xMidYMid slice"
+  opacity="0.9"
+/>
+</svg>
+  </div>
+</header>
+  
+<section class="stats-section" id="counterSection">
+  <div class="stat-box">
+    <div class="stat-number" data-target="20">0</div>
+    <div class="stat-title">Years of Experience</div>
+  </div>
+
+  <div class="stat-box">
+    <div class="stat-number" data-target="425">0</div>
+    <div class="stat-title">Happy Clients</div>
+  </div>
+
+  <div class="stat-box">
+    <div class="stat-number" data-target="4010">0</div>
+    <div class="stat-title">Successful Therapy</div>
+  </div>
+
+  <div class="stat-box">
+    <div class="stat-number" data-target="960">0</div>
+    <div class="stat-title">Sessions Per Year</div>
+  </div>
+</section>
+
+<section class="py-5" id="therapists">
+<div class="container">
+<h2 class="mall text-center fw-bold  mb-5">Meet Our Therapists</h2>
+
+<div class="row g-4">
+
+<!-- AYESHA -->
+<div class="col-md-3">
+<div class="card therapist-card shadow">
+<img src="https://i.pinimg.com/736x/f1/da/f9/f1daf9cebfbcbefb8e86677b8b0cbbc0.jpg">
+<div class="card-body text-center">
+<h5>Dr. Ayesha Malik</h5>
+<p>Stress & Anxiety Specialist</p>
+<button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-ayesha">Contact</button>
+</div>
+</div>
+</div>
+
+<!-- HAMZA -->
+<div class="col-md-3">
+<div class="card therapist-card shadow">
+<img src="https://i.pinimg.com/736x/27/45/6a/27456a44e3ffc1b09c93ee0b8e107af0.jpg">
+<div class="card-body text-center">
+<h5>Dr. Hamza Rehman</h5>
+<p>Family Therapist</p>
+<button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-hamza">Contact</button>
+</div>
+</div>
+</div>
+
+<!-- SARA -->
+<div class="col-md-3">
+<div class="card therapist-card shadow">
+<img src="https://i.pinimg.com/1200x/2f/c3/93/2fc3932903271d7ed76c5e270857fe39.jpg">
+<div class="card-body text-center">
+<h5>Dr. Sara Khan</h5>
+<p>Child Behavior Expert</p>
+<button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-sara">Contact</button>
+</div>
+</div>
+</div>
+
+<!-- MARIA -->
+<div class="col-md-3">
+<div class="card therapist-card shadow">
+<img src="https://i.pinimg.com/1200x/69/f0/0f/69f00f3ac60af675b9c3fe32fbb81825.jpg">
+<div class="card-body text-center">
+<h5>Dr. Maria Ahmed</h5>
+<p>Trauma Specialist</p>
+<button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-maria">Contact</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ================= MODALS ================= -->
+
+<!-- AYESHA -->
+<div class="modal fade modern-modal" id="modal-ayesha">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Dr. Ayesha Malik</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body">
+<form class="contact-form">
+<div class="form-group">
+<input type="text" class="form-control name" placeholder="Your Name">
+<small class="form-error">Name required</small>
+</div>
+<div class="form-group">
+<input type="email" class="form-control email" placeholder="Your Email">
+<small class="form-error">Valid email required</small>
+</div>
+<div class="form-group">
+<textarea class="form-control message" rows="3" placeholder="Your Message"></textarea>
+<small class="form-error">Min 6 characters</small>
+</div>
+<p class="success-msg d-none">✅ Message Sent</p>
+<button class="btn btn-primary w-100 submit-btn">Send</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<!-- HAMZA -->
+<div class="modal fade modern-modal" id="modal-hamza">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Dr. Hamza Rehman</h5>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body">
+<form class="contact-form">
+<div class="form-group">
+<input type="text" class="form-control name" placeholder="Your Name">
+<small class="form-error">Name required</small>
+</div>
+<div class="form-group">
+<input type="email" class="form-control email" placeholder="Your Email">
+<small class="form-error">Valid email required</small>
+</div>
+<div class="form-group">
+<textarea class="form-control message" rows="3" placeholder="Your Message"></textarea>
+<small class="form-error">Min 6 characters</small>
+</div>
+<p class="success-msg d-none">✅ Message Sent</p>
+<button class="btn btn-primary w-100 submit-btn">Send</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<!-- SARA -->
+<div class="modal fade modern-modal" id="modal-sara">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Dr. Sara Khan</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body">
+<form class="contact-form">
+<div class="form-group">
+<input type="text" class="form-control name" placeholder="Your Name">
+<small class="form-error">Name required</small>
+</div>
+<div class="form-group">
+<input type="email" class="form-control email" placeholder="Your Email">
+<small class="form-error">Valid email required</small>
+</div>
+<div class="form-group">
+<textarea class="form-control message" rows="3" placeholder="Your Message"></textarea>
+<small class="form-error">Min 6 characters</small>
+</div>
+<p class="success-msg d-none">✅ Message Sent</p>
+<button class="btn btn-primary w-100 submit-btn">Send</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<!-- MARIA -->
+<div class="modal fade modern-modal" id="modal-maria">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5>Dr. Maria Ahmed</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body">
+<form class="contact-form">
+<div class="form-group">
+<input type="text" class="form-control name" placeholder="Your Name">
+<small class="form-error">Name required</small>
+</div>
+<div class="form-group">
+<input type="email" class="form-control email" placeholder="Your Email">
+<small class="form-error">Valid email required</small>
+</div>
+<div class="form-group">
+<textarea class="form-control message" rows="3" placeholder="Your Message"></textarea>
+<small class="form-error">Min 6 characters</small>
+</div>
+<p class="success-msg d-none">✅ Message Sent</p>
+<button class="btn btn-primary w-100 submit-btn">Send</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<section class="services-section py-5" class="services" id="services">
+  <div class="container py-4">
+    <div class="text-center mb-5 section-heading">
+      <h1 class="blue fw-bold" data-aos="fade-right" data-aos-delay="100">You deserve to be happy</h1>
+      <p class="fw-bold" data-aos="fade-up" data-aos-delay="200">What type of therapy are you looking for?</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up-right" data-aos-delay="200">
+        <div class="service-card image-card medical"
+          data-bs-toggle="modal"
+          data-bs-target="#serviceModal"
+          data-title="Medical & Pain Relief"
+          data-services="Pain Relief Therapy,Physiotherapy,Injury Rehabilitation,Post-Surgery Massage"
+          style="background-image:url('https://i.pinimg.com/736x/94/8f/6a/948f6a3232bca06baa41dc1622d62952.jpg');">
+          <div class="card-overlay">
+            <h3>Medical & Pain Relief</h3>
+            <p>For pain, injuries & recovery</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card image-card technique"
+          data-bs-toggle="modal"
+          data-bs-target="#serviceModal"
+          data-title="Massage Techniques"
+          data-services="Deep Tissue Massage,Swedish Massage,Hot Stone Therapy,Cupping Therapy"
+          style="background-image:url('https://i.pinimg.com/1200x/55/1a/3c/551a3cf1d8f105a6025012f699c77cf5.jpg');">
+          <div class="card-overlay">
+            <h3>Massage Techniques</h3>
+            <p>Advanced techniques to release tension and restore balance.</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up-left" data-aos-delay="200">
+        <div class="service-card image-card wellness"
+          data-bs-toggle="modal"
+          data-bs-target="#serviceModal"
+          data-title="Relaxation & Wellness"
+          data-services="Relaxation Massage,Aromatherapy,Stress Relief Therapy,Skin Tightening Massage"
+          style="background-image:url('https://i.pinimg.com/736x/a5/06/90/a50690e03273030923c2c6d6c843afaf.jpg');">
+          <div class="card-overlay">
+            <h3>Relaxation & Wellness</h3>
+            <p>Relax your mind, refresh your body and feel renewed.</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="modal fade" id="serviceModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded-4">
+
+      <div class="modal-header">
+        <div class="progress mb-2" style="height:5px;">
+          <div class="progress-bar" id="modalProgress" style="width:0%"></div>
+        </div>
+        <h5 class="modal-title fw-bold" id="modalTitle"></h5>
+        <button type="button" class="btn-close modal-external-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="step step-1">
+          <p class="text-muted mb-3">Step 1 · Select gender</p>
+          <div class="list-group" id="genderList">
+            <button type="button" class="list-group-item list-group-item-action">Male</button>
+            <button type="button" class="list-group-item list-group-item-action">Female</button>
+            <button type="button" class="list-group-item list-group-item-action">Prefer not to say</button>
+          </div>
+        </div>
+        <div class="step step-2 d-none">
+          <p class="Black text-muted mb-3">Step 2 · Select a service</p>
+          <div id="serviceList" class="list-group"></div>
+        </div>
+        <div class="step step-3 d-none">
+          <p class="text-muted mb-3">Step 3 · Tell us your concern</p>
+          <select class="form-select mb-3" id="concernSelect">
+            <option selected disabled>Select your concern</option>
+            <option>Pain</option>
+            <option>Stress</option>
+            <option>Muscle stiffness</option>
+            <option>Injury recovery</option>
+          </select>
+          <select class="form-select" id="sessionSelect">
+            <option selected disabled>Preferred session</option>
+            <option>30 Minutes</option>
+            <option>60 Minutes</option>
+            <option>90 Minutes</option>
+          </select>
+        </div>
+        <div class="step step-4 d-none">
+          <p class="text-muted mb-3">Step 4  · Your details</p>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="userName" placeholder="Your Name">
+              <small class="text-danger d-none" id="nameErr">Name must be at least 3 characters</small>
+            </div>
+            <div class="col-md-6">
+              <input type="tel" class="form-control" id="userPhone" placeholder="Phone Number">
+              <small class="text-danger d-none" id="phoneErr">Enter valid phone number</small>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" id="userEmail" placeholder="Email Address">
+              <small class="text-danger d-none" id="emailErr">Enter valid email address</small>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" id="userNotes" rows="3" placeholder="Any notes (optional)"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+        <button class="btn btn-outline-secondary d-none" id="prevBtn">Back</button>
+        <button class="btn btn-primary px-4" id="nextBtn">Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="products" id="products">
+<div class="container">
+  <div class="section-header">
+  <h2 class="prop fw-bold" >Our Products</h2>
+  </div>
+  <div class="tabs">
+    <button class="all-btn active"  onclick="filterCards('all',this)">All</button>
+    <button class="oil-btn" onclick="filterCards('oil',this)">Essential Oils</button>
+    <button class="lotion-btn" onclick="filterCards('lotion',this)">Lotions</button>
+    <button class="machine-btn" onclick="filterCards('machine',this)">Machines</button>
+  </div>
+  
+  <div class="grid">
+    <div class="card oil" data-title="Lavender Oil" data-price="25" >
+      <img src="https://i.pinimg.com/736x/ef/a9/a8/efa9a840c08a4ff9103be154e7e628bf.jpg">
+      <div class="card-content">
+        <h3>Lavender (Lavandula angustifolia)</h3>
+        <p class="speciality">Relaxation, stress relief & aromatherapy support enhancement</p>
+        <div class="price">25$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)">Buy</div>
+        
+      </div>
+    </div>
+       <div class="card lotion" data-title="La roche" data-price="40">
+      <img src="https://i.pinimg.com/1200x/07/07/42/0707421305dfd2dfaeab0923442a4640.jpg">
+      <div class="card-content">
+        <h3>La Roche-Posay Lipikar AP+M Triple Repair Body Moisturizer  </h3>
+        <p class="speciality">Triple repair moisture for sensitive, dry skin</p>
+        <div class="price">40$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)">Buy</div>
+      </div>
+    </div>
+   <div class="card machine" data-title="Ultrasound" data-price="260">
+      <img src="https://i.pinimg.com/736x/14/ab/78/14ab7830a8986bd19a1a9c5fd70d0f22.jpg">
+      <div class="card-content">
+        <h3>Ultrasound Machine</h3>
+        <p class="speciality">Deep therapy for muscle recovery, pain relief & relaxation</p>
+        <div class="price">260$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+    <div class="card oil" data-title="Eucalyptus" data-price="69">
+      <img src="https://i.pinimg.com/1200x/e0/63/e6/e063e65f42b6b6d3c4499b4ed77128e4.jpg">
+      <div class="card-content">
+        <h3>Eucalyptus (Eucalyptus globulus)</h3>
+        <p class="speciality">Supports breathing, reduces muscle tension & clears the senses</p>
+        <div class="price">69$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+    <div class="card oil" data-title="Tea Tree" data-price="55">
+      <img src="https://i.pinimg.com/1200x/48/c3/fa/48c3fade79040ae24f1a94568f4238e1.jpg">
+      <div class="card-content">
+        <h3>Tea Tree (Melaleuca alternifolia)</h3>
+        <p class="speciality">Natural antibacterial support for soft, nourished skin & scalp</p>
+        <div class="price">55$</div>
+       <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+       
+      </div>
+    </div>
+    <div class="card oil" data-title="Lemon" data-price="28" >
+      <img src="https://i.pinimg.com/736x/69/43/cc/6943cc93c9e99fd32e0ce56d4877d66b.jpg">
+      <div class="card-content">
+        <h3>Lemon (Citrus limon)</h3>
+        <p class="speciality">Refreshing citrus scent for energy, focus, zest & well-being</p>
+        <div class="price">28$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+    <div class="card oil" data-title="Frankincense" data-price="24">
+      <img src="https://i.pinimg.com/736x/a9/3a/7d/a93a7d5fbe4ef4136734dc25856275af.jpg">
+      <div class="card-content">
+        <h3>Frankincense (Boswellia carterii)</h3>
+        <p class="speciality">Calming aromatherapy for stress relief & skin careg</p>
+        <div class="price">24$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)">Buy</div>
+        
+      </div>
+    </div>
+    <div class="card lotion" data-title="CeraVe" data-price="35">
+      <img src="https://i.pinimg.com/1200x/99/d2/01/99d201c828808cbc65949819bc00522f.jpg">
+      <div class="card-content">
+        <h3>CeraVe Moisturizing Cream</h3>
+        <p class="speciality">Deep hydration & skin repair therapy</p>
+        <div class="price">35$</div>
+       <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+      </div>
+    </div>
+    <div class="card lotion" data-title="Eucerin" data-price="30">
+      <img src="https://i.pinimg.com/1200x/5e/ec/90/5eec904961ca074ce9f187384dfe900e.jpg">
+      <div class="card-content">
+        <h3>Eucerin Advanced Repair Lotion</h3>
+        <p class="speciality">Deep repair care for dry & rough skin</p>
+        <div class="price">30$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+       
+      </div>
+    </div>
+      <div class="card lotion" data-title="Vanicream" data-price="50">
+      <img src="https://i.pinimg.com/736x/56/6c/70/566c700ea8159d9c3187dfac536c0cbd.jpg">
+      <div class="card-content">
+        <h3>Vanicream Moisturizing Cream</h3>
+        <p class="speciality">Safe moisture for hydrated, soothing, radiant, sensitive skin</p>
+        <div class="price">50$</div>
+       <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+      </div>
+    </div>
+    <div class="card lotion" data-title="Aveeno" data-price="60" >
+      <img src="https://i.pinimg.com/736x/c6/b3/60/c6b360c34e2ab6aba8fe184bc3c353f8.jpg">
+      <div class="card-content">
+        <h3>Aveeno Eczema Therapy Moisturizing Cream</h3>
+        <p class="speciality">Gentle relief and hydration for eczema-prone skin.</p>
+        <div class="price">60$</div>
+       <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+      
+      </div>
+    </div>
+    <div class="card lotion" data-title="Lubriderm" data-price="70">
+      <img src="https://i.pinimg.com/1200x/97/00/0f/97000f08b11e040c27e05a8a24897975.jpg">
+      <div class="card-content">
+        <h3>Lubriderm Advanced Therapy Lotion</h3>
+        <p class="speciality">Deep hydration for dry, rough skin.</p>
+        <div class="price">70$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+    <div class="card machine" data-title="Massage" data-price="120">
+      <img src="https://i.pinimg.com/1200x/b2/23/0a/b2230a2ce1f738f6db61fc82f7ad0eaa.jpg">
+      <div class="card-content">
+        <h3>Massage Gun</h3>
+        <p class="speciality">Pain relief & advanced physical therapy treatment</p>
+        <div class="price">120$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+    <div class="card machine" data-title="Laser" data-price="220">
+      <img src="https://i.pinimg.com/1200x/d6/8a/e2/d68ae2bb5958ff2ec43e7c3cc2bdf60b.jpg">
+      <div class="card-content">
+        <h3>Laser Machine</h3>
+        <p class="speciality">Advanced laser therapy for skin & muscle care</p>
+        <div class="price">220$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+      <div class="card oil" data-title="Peppermint" data-price="22">
+      <img src="https://i.pinimg.com/1200x/67/40/f2/6740f20dcbc70a7fc4fb16a4630ef42b.jpg">
+      <div class="card-content">
+        <h3>Peppermint (Mentha piperita)</h3>
+        <p class="speciality">Cooling relief for headaches & muscles</p> 
+        <div class="price">22$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+    <div class="card machine" data-title="Shockwave" data-price="180">
+      <img src="https://i.pinimg.com/736x/47/53/dc/4753dc225edfdbde0362c7ee8ebee1eb.jpg">
+      <div class="card-content">
+        <h3>Shockwave Machine</h3>
+        <p class="speciality">Effective therapy for pain relief & tissue repair.</p>
+        <div class="price">180$</div>
+       <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+       
+      </div>
+    </div>
+    <div class="card machine" data-title="ElectroTherapy" data-price="150">
+      <img src="https://i.pinimg.com/736x/19/4a/8b/194a8b11982d66f35ac37061ca580566.jpg">
+      <div class="card-content">
+        <h3>ElectroTherapy Devices</h3>
+        <p class="speciality">Pain relief and muscle stimulation therapy</p>
+        <div class="price">150$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+        
+      </div>
+    </div>
+    <div class="card machine" data-title="Interferential Therapy " data-price="240">
+      <img src="https://i.pinimg.com/736x/94/76/15/94761523dc6dfc07b042607ce5a85f70.jpg">
+      <div class="card-content">
+        <h3>Interferential Therapy (IFT)</h3>
+        <p class="speciality">Targeted therapy for pain reduction & healing</p>
+        <div class="price">240$</div>
+        <div class="ball buy fw-bold" onclick="openQtyModal(this)"> Buy</div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div id="pageBlur"></div>
+
+<div class="modal-close-outside" onclick="closeModal()">✕</div>
+
+<div class="glass-modal" id="productModal">
+  <div class="glass-box">
+    <img id="mImg">
+    <h3 id="mTitle"></h3>
+    <p id="mDesc"></p>
+
+    <div class="price-qty">
+      <span id="mPrice"></span>
+
+      <div class="qty">
+        <button onclick="changeQty(-1)">−</button>
+        <span id="qty">1</span>
+        <button onclick="changeQty(1)">+</button>
+      </div>
+    </div>
+    <div class="actions">
+    <button class="ball cart" onclick="addToCart()"> Add to Cart</button>
+    <button class="ball buy" onclick="proceedToForm()"> Proceed</button>
+
+  </div>
+</div>
+</div>
+
+<div class="modal" id="info">
+  <div class="box">
+    <span class="close" onclick="closeAll()">✕</span>
+    <input id="name" placeholder="Full Name" required minlength="3">
+    <span class="error" id="nameError"></span>
+    <input id="phone" placeholder="Phone" pattern="^03[0-9]{9}$" title="Enter valid Pakistani number" required>
+    <span class="error" id="phoneError"></span>
+    <input id="email" type="email" placeholder="Email" required>
+    <span class="error" id="emailError"></span>
+    <textarea id="address" placeholder="Your Address" required minlength="10"></textarea>
+    <span class="error" id="addressError"></span>
+    <button class="full" id="checkoutNextBtn" onclick="openPayment()">Next</button>
+
+  </div>
+</div>
+
+<div class="modal" id="payment">
+  <div class="box">
+    <span class="close" onclick="closeAll()">✕</span>
+    <h3>Payment Method</h3>
+
+    <div class="payments">
+      <div class="pay-card active" onclick="selectPay(this,'COD')">💵 COD</div>
+      <div class="pay-card" onclick="selectPay(this,'Easypaisa')">📲 Easypaisa</div>
+      <div class="pay-card" onclick="selectPay(this,'JazzCash')">📲 JazzCash</div>
+      <div class="pay-card" onclick="selectPay(this,'Card')">💳 Card</div>
+      <div class="pay-card" onclick="selectPay(this,'HBL')">🏦 HBL</div>
+    </div>
+
+    <div id="payDetails" style="margin-top:15px;"></div>
+
+    <button class="full" id="confirmPayBtn" onclick="confirmOrder()" disabled>Confirm Order</button>
+  </div>
+</div>
+
+<div class="modal" id="invoiceModal">
+  <div class="box">
+    <span class="close" onclick="closeAll()">✕</span>
+    <h3>Invoice</h3>
+    <div id="invoiceContent"></div>
+    <button class="full" onclick="closeAll()">Close</button>
+  </div>
+</div>
+
+<div class="modal" id="cartModal">
+  <div class="box">
+    <span class="close" onclick="closeAll()">✕</span>
+    <h3>Your Cart</h3>
+    <div id="cartItems"></div>
+    <button class="full" onclick="checkoutCart()">Checkout</button>
+  </div>
+</div>
+  
+<h1>Gallery</h1>
+<div class="gallery" id="gallery"></div>
+<div class="gal-modal-wrap" id="galModalWrap">
+  <div class="gal-modal">
+    <div class="gal-modal-header">
+      <div>
+        <h2 id="galModalTitle" style="margin:0;font-size:18px"></h2>
+        <div id="galModalSubtitle" style="color:var(--muted);font-size:13px;margin-top:4px"></div>
+      </div>
+      <button class="gal-close" id="galModalClose">Close</button>
+    </div>
+    <div class="gal-modal-body">
+      <div id="galModalContent"></div>
+    </div>
+  </div>
+</div>
+<section class="testimonial-wrapper" id="testimonials">
+
+  <h2 class="  section-title">CLIENT TESTIMONIAL</h2>
+
+  <div class="testimonial-grid">
+
+    <!-- CARD 1 -->
+    <div class="testimonial-card">
+      <div class="top-badge">
+        <strong>John Carter</strong>
+        <span>Business Owner</span>
+      </div>
+      <div class="avatar">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg">
+      </div>
+      <div class="content">
+        <div class="stars">★★★★★</div>
+        <p>
+          The service quality exceeded my expectations. Everything was handled
+          professionally and delivered on time.
+        </p>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="testimonial-card">
+      <div class="top-badge">
+        <strong>Emma Wilson</strong>
+        <span>Marketing Manager</span>
+      </div>
+      <div class="avatar">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg">
+      </div>
+      <div class="content">
+        <div class="stars">★★★★★</div>
+        <p>
+          Excellent experience from start to finish. Communication was clear
+          and the results were exactly what we needed.
+        </p>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="testimonial-card">
+      <div class="top-badge">
+        <strong>Michael Brown</strong>
+        <span>Project Lead</span>
+      </div>
+      <div class="avatar">
+        <img src="https://randomuser.me/api/portraits/men/65.jpg">
+      </div>
+      <div class="content">
+        <div class="stars">★★★★☆</div>
+        <p>
+          Very professional team with great attention to detail.
+          I would definitely recommend their services.
+        </p>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="testimonial-card">
+      <div class="top-badge">
+        <strong>Sophia Martin</strong>
+        <span>HR Consultant</span>
+      </div>
+      <div class="avatar">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg">
+      </div>
+      <div class="content">
+        <div class="stars">★★★★★</div>
+        <p>
+          Smooth workflow and excellent support throughout the project.
+          Truly a reliable and skilled team.
+        </p>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="testimonial-card">
+      <div class="top-badge">
+        <strong>Daniel Scott</strong>
+        <span>Startup Founder</span>
+      </div>
+      <div class="avatar">
+        <img src="https://randomuser.me/api/portraits/men/75.jpg">
+      </div>
+      <div class="content">
+        <div class="stars">★★★★☆</div>
+        <p>
+          Great experience working with them. The final output was
+          modern, clean, and exactly as discussed.
+        </p>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="testimonial-card">
+      <div class="top-badge">
+        <strong>Olivia Harris</strong>
+        <span>Product Manager</span>
+      </div>
+      <div class="avatar">
+        <img src="https://randomuser.me/api/portraits/women/52.jpg">
+      </div>
+      <div class="content">
+        <div class="stars">★★★★★</div>
+        <p>
+          Professional attitude and quick turnaround time.
+          I am extremely satisfied with the overall service.
+        </p>
+      </div>
+    </div>
+</div>
+</section>
+<div class="testimonial-heading">
+  <h2>CLIENT REVIEWS</h2>
+</div>
+
+<div id="videoCarousel" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-inner">
+
+    <!-- VIDEO 1 -->
+    <div class="carousel-item active">
+      <video class="w-100 "  muted playsinline loop>
+        <source src="1stvideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- VIDEO 2 -->
+    <div class="carousel-item">
+      <video class="w-100" muted playsinline loop>
+        <source src="2ndVideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- VIDEO 3 -->
+    <div class="carousel-item">
+      <video class="w-100" muted playsinline loop>
+        <source src="3rdVideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </div>
+
+  <!-- CONTROLS -->
+  <button class="carousel-control-prev" type="button"
+    data-bs-target="#videoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button"
+    data-bs-target="#videoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<section class="about" id="about">
+  <img src="https://images.unsplash.com/photo-1550831107-1553da8c8464">
+  <div class="about-content">
+    <div class="heading-box">
+      <h1>About Zara Therapy Clinic</h1>
+    </div>
+    <div class="para-box">
+      We provide professional therapy and care to help improve your mental, physical, 
+            and emotional well-being. Our mission is to guide you toward a healthier, 
+            happier, and more balanced life with effective healing practices.
+    </div>
+  </div>
+</section>
+
+<section class="zt-offers">
+  <h2>Special Discount Offers</h2>
+
+  <div class="zt-card-container">
+    <div class="zt-card">
+      <i class="fa-solid fa-people-roof"></i>
+      <h3>Family Package</h3>
+      <h4>30% Discount</h4>
+      <div class="zt-card-details">
+        <ul>
+          <li>Parents & Kids combined session</li>
+          <li>Long-term emotional balance</li>
+          <li>Affordable monthly plan</li>
+          <li>30% Discount</li>
+        </ul>
+        <button onclick="ztOpenPopup('Family Package')">Avail Offer</button>
+      </div>
+    </div>
+
+    <div class="zt-card">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <h3>Student Offer</h3>
+      <h4>40% Discount</h4>
+      <div class="zt-card-details">
+        <ul>
+          <li>Exam stress management</li>
+          <li>Support for bright futures</li>
+          <li>Career & confidence counseling</li>
+          <li>40% Discount</li>
+        </ul>
+        <button onclick="ztOpenPopup('Student Offer')">Avail Offer</button>
+      </div>
+    </div>
+
+    <div class="zt-card">
+      <i class="fa-solid fa-heart"></i>
+      <h3>Couple Therapy</h3>
+      <h4>25% Discount</h4>
+      <div class="zt-card-details">
+        <ul>
+          <li>Improve communication</li>
+          <li>Reconnect & grow together</li>
+          <li>Trust bonding sessions</li>
+          <li>Peaceful relationship guidance</li>
+          <li>25% Discount</li>
+        </ul>
+        <button onclick="ztOpenPopup('Couple Therapy')">Avail Offer</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+  <h2 class="contact-heading">Contact Us</h2>
+
+  <div class="contact-wrap">
+    <div class="contact-form">
+    <form id="ztContactForm">
+    <input type="text" id="ztContactName" placeholder="Name">
+    <input type="email" id="ztContactEmail" placeholder="Email">
+    <input type="text" id="ztContactMobile" placeholder="Mobile">
+    <textarea id="ztContactMessage" placeholder="Message"></textarea>
+    <button class="zt-send-btn">Submit</button>
+    <div class="zt-success-msg">✔ Message Sent Successfully</div>
+  </form>
+
+    </div>
+
+    <div class="schedule">
+      <h2>Keep in Touch</h2>
+      <ul>
+        <li>Mon–Fri : 9AM – 8PM</li>
+        <li>Sat : 10AM – 6PM</li>
+        <li>Sun : Closed</li>
+      </ul>
+    </div>
+  </div>
+   
+  <div class="map">
+    <iframe src="https://maps.google.com/maps?q=Zara%20Therapy&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+  </div>
+
+
+</section>
+
+
+<div class="zt-popup-wrap" id="ztOfferPopup">
+  <div class="zt-popup-box">
+    <div class="zt-popup-close" onclick="ztClosePopup()">×</div>
+    <h3 id="ztOfferHeading"></h3>
+
+    <form id="ztOfferForm">
+      <input type="text" id="ztOfferName" placeholder="Name">
+      <input type="email" id="ztOfferEmail" placeholder="Email">
+      <input type="text" id="ztOfferMobile" placeholder="Mobile">
+      <textarea id="ztOfferMessage" placeholder="Message"></textarea>
+
+      <button class="zt-send-btn">Submit</button>
+      <div class="zt-success-msg">✔ Offer Submitted Successfully</div>
+    </form>
+  </div>
+</div>
+ <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>ZARA THERAPY CLINIC</h4>
+                    <p>Providing premium therapy products and services for holistic wellness since 2010. Our mission is to enhance your wellbeing through natural and advanced therapeutic solutions.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/yourusername" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/yourusername" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="https://twitter.com/yourusername" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+                       <i class="fab fa-linkedin-in"></i>
+                       </a>
+
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#therapists">Menu</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#services">Services</a>
+                    <a href="#products">Products</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#testimonial-wrapper">Testimonials</a>
+
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <a href="#">pain Relief Therapy</a>
+                    <a href="#">Physiotherapy </a>
+                    <a href="#">Deep Tissues Massage</a>
+                    <a href="#">Cupping Therapy</a>
+                    <a href="#">Relaxing Massage </a>
+                    <a href="#">Aromatherapy </a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Plot:156 Shahra-e-Faisal, Faisal Cantonment, Karachi</p>
+                    <p><i class="fas fa-phone"></i> 021-45678952</p>
+                    <p><i class="fas fa-envelope"></i> zaratherapyclinic@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-fri: 9am-8pm, Sat: 10am-6pm</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 ZARA THERAPY CLINIC. All rights reserved. | Designed for Therapy & Wellness</p>
+            </div>
+        </div>
+    </footer>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const searchIcon = document.querySelector('.search-icon');
+  const searchContainer = document.getElementById('search-container');
+  const closeSearch = document.querySelector('.close-search');
+  const searchInput = searchContainer.querySelector('input');
+
+  // open search
+  searchIcon.addEventListener('click', () => {
+    searchContainer.style.display = 'flex';
+    searchInput.focus();
+  });
+
+  // close search
+  closeSearch.addEventListener('click', () => {
+    searchContainer.style.display = 'none';
+    searchInput.value = '';
+  });
+
+  // enter key search response
+  searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+
+      if (searchInput.value.trim() === '') {
+        alert('Please type something');
+      } else {
+        alert('Searching for: ' + searchInput.value);
+      }
+    }
+  });
+});
+</script>
+<script>//STAT NUMBER
+  const counters = document.querySelectorAll(".stat-number");
+  let started = false;
+
+  function startCounter() {
+    counters.forEach(counter => {
+      const target = Number(counter.getAttribute("data-target"));
+      let count = 0;
+      const increment = target / 100;
+
+      function update() {
+        if (count < target) {
+          count += increment;
+          counter.textContent = Math.floor(count) + "+";
+          requestAnimationFrame(update);
+        } else {
+          counter.textContent = target + "+";
+        }
+      }
+      update();
+    });
+  }
+
+  function checkStart() {
+    const section = document.getElementById("counterSection");
+    const pos = section.getBoundingClientRect().top;
+
+    if (!started && pos < window.innerHeight - 100) {
+      started = true;
+      startCounter();
+    }
+  }
+
+  window.addEventListener("scroll", checkStart);
+  window.addEventListener("load", checkStart);
+</script>
+
+<script>//MENU
+function attachFormHandler(formId, statusId) {
+    const form = document.getElementById(formId);
+    const statusBox = document.getElementById(statusId);
+
+    if (!form || !statusBox) return;
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        let name = form.querySelector("input[type='text']").value.trim();
+        let email = form.querySelector("input[type='email']").value.trim();
+        let message = form.querySelector("textarea").value.trim();
+
+        statusBox.classList.remove("success", "error");
+
+        if (name === "" || email === "" || message === "") {
+            statusBox.style.display = "block";
+            statusBox.classList.add("error");
+            statusBox.innerHTML = "❌ Please fill all fields correctly.";
+            return;
+        }
+
+        if (!email.includes("@") || !email.includes(".")) {
+            statusBox.style.display = "block";
+            statusBox.classList.add("error");
+            statusBox.innerHTML = "❌ Enter a valid email!";
+            return;
+        }
+
+        statusBox.style.display = "block";
+        statusBox.classList.add("success");
+        statusBox.innerHTML = "✅ Message sent successfully!";
+
+        form.reset();
+    });
+}
+
+attachFormHandler("contactFormAyesha", "statusAyesha");
+attachFormHandler("contactFormHamza", "statusHamza");
+attachFormHandler("contactFormSara", "statusSara");
+attachFormHandler("contactFormMaria", "statusMaria");
+</script>
+ <script>
+    window.addEventListener("scroll", () => {
+      const navbar = document.querySelector(".custom-navbar");
+      navbar.classList.toggle("scrolled", window.scrollY > 50);
+    });
+  </script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration:800,
+  easing:'ease-in-out',
+  once:true,
+});
+</script>
+<script>
+  function validateStep4(){
+  let valid = true
+
+  const name = document.getElementById('userName')
+  const phone = document.getElementById('userPhone')
+  const email = document.getElementById('userEmail')
+
+ 
+  if(name.value.trim().length < 3){
+    name.classList.add('is-invalid')
+    document.getElementById('nameErr').classList.remove('d-none')
+    valid = false
+  }else{
+    name.classList.remove('is-invalid')
+    document.getElementById('nameErr').classList.add('d-none')
+  }
+
+  
+  if(!/^\d{10,15}$/.test(phone.value.trim())){
+    phone.classList.add('is-invalid')
+    document.getElementById('phoneErr').classList.remove('d-none')
+    valid = false
+  }else{
+    phone.classList.remove('is-invalid')
+    document.getElementById('phoneErr').classList.add('d-none')
+  }
+
+  
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())){
+    email.classList.add('is-invalid')
+    document.getElementById('emailErr').classList.remove('d-none')
+    valid = false
+  }else{
+    email.classList.remove('is-invalid')
+    document.getElementById('emailErr').classList.add('d-none')
+  }
+
+  return valid
+}
+if(currentStep === 4){
+  if(!validateStep4()) return
+}
+</script>
+<script>
+const modal = document.getElementById('serviceModal');
+const modalTitle = document.getElementById('modalTitle');
+const nextBtn = document.getElementById('nextBtn');
+const prevBtn = document.getElementById('prevBtn');
+const modalProgress = document.getElementById('modalProgress');
+
+let currentStep = 1;
+let selectedGender = null;
+
+const originalModalBody = modal.querySelector('.modal-body').innerHTML;
+
+function showStep(step){
+  document.querySelectorAll('.step').forEach(s => s.classList.add('d-none'));
+  document.querySelector('.step-' + step).classList.remove('d-none');
+
+  prevBtn.classList.toggle('d-none', step === 1);
+  nextBtn.innerText = step === 4 ? 'Submit' : 'Continue';
+  
+  nextBtn.disabled = step !== 4;
+  modalProgress.style.width = ((step-1)/4*100) + '%';
+}
+
+function addValidationListeners(){
+  ['userName','userPhone','userEmail'].forEach(id=>{
+    const el = document.getElementById(id);
+    if(!el) return;
+
+    el.addEventListener('input', e=>{
+      const val = e.target.value.trim();
+      if(id==='userPhone')
+        e.target.classList.toggle('is-invalid', !/^\d{10,15}$/.test(val));
+      else if(id==='userEmail')
+        e.target.classList.toggle('is-invalid', !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val));
+      else
+        e.target.classList.toggle('is-invalid', val.length < 3);
+    });
+  });
+
+  ['concernSelect','sessionSelect'].forEach(id=>{
+    const el = document.getElementById(id);
+    if(!el) return;
+    el.addEventListener('change', checkStep3Validity);
+  });
+}
+
+function checkStep3Validity(){
+  const concern = document.getElementById('concernSelect');
+  const session = document.getElementById('sessionSelect');
+  nextBtn.disabled = !(concern.value && session.value);
+}
+
+modal.addEventListener('show.bs.modal', function (event) {
+
+  const card = event.relatedTarget;
+
+  modal.querySelector('.modal-body').innerHTML = originalModalBody;
+  currentStep = 1;
+  selectedGender = null;
+
+  showStep(currentStep);
+
+  modalTitle.innerText = card.getAttribute('data-title');
+  
+  const genderButtons = modal.querySelectorAll('#genderList button');
+  genderButtons.forEach(btn=>{
+    btn.onclick = ()=>{
+      genderButtons.forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedGender = btn.innerText;
+      nextBtn.disabled = false;
+    };
+  });
+  
+  const services = card.getAttribute('data-services').split(',');
+  const serviceList = modal.querySelector('#serviceList');
+  serviceList.innerHTML = '';
+
+  services.forEach(service=>{
+    const item = document.createElement('button');
+    item.type = 'button';
+    item.className = 'list-group-item list-group-item-action';
+    item.innerText = service;
+
+    item.onclick = ()=>{
+      serviceList.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
+      item.classList.add('active');
+      nextBtn.disabled = false;
+    };
+
+    serviceList.appendChild(item);
+  });
+
+  addValidationListeners();
+});
+
+nextBtn.onclick = () => {
+
+  if(currentStep < 4){
+    currentStep++;
+    showStep(currentStep);
+    return;
+  }
+  
+  const name = document.getElementById('userName');
+  const phone = document.getElementById('userPhone');
+  const email = document.getElementById('userEmail');
+
+  let valid = true;
+
+  if(name.value.trim().length < 3){ name.classList.add('is-invalid'); valid=false; }
+  if(!/^\d{10,15}$/.test(phone.value.trim())){ phone.classList.add('is-invalid'); valid=false; }
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())){ email.classList.add('is-invalid'); valid=false; }
+
+  if(!valid) return;
+
+  modal.querySelector('.modal-body').innerHTML = `
+    <div class="text-center py-5">
+      <div style="font-size:50px; color:#28a745;">🎉</div>
+      <h3 class="mt-3">Submitted Successfully!</h3>
+      <p>Thank you <strong>${name.value}</strong></p>
+      <p>Gender: ${selectedGender}</p>
+    </div>
+  `;
+
+  nextBtn.classList.add('d-none');
+  prevBtn.classList.add('d-none');
+  modalProgress.style.width = "100%";
+
+  setTimeout(()=>{
+    bootstrap.Modal.getInstance(modal).hide();
+  },3000);
+};
+
+prevBtn.onclick = ()=>{
+  if(currentStep > 1){
+    currentStep--;
+    showStep(currentStep);
+  }
+};
+ modal.addEventListener('hidden.bs.modal', () => {
+  
+  modal.querySelector('.modal-body').innerHTML = originalModalBody;
+  
+  currentStep = 1;
+  selectedGender = null;
+  
+  nextBtn.classList.remove('d-none');
+  prevBtn.classList.add('d-none');
+  nextBtn.innerText = 'Continue';
+  nextBtn.disabled = true;
+  
+  modalProgress.style.width = '0%';
+});
+</script>
+<script>
+function filterCards(category,btn){
+  document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'))
+  btn.classList.add('active')
+
+  document.querySelectorAll('.card').forEach(card=>{
+    card.style.display =
+      (category === 'all' || card.classList.contains(category))
+      ? 'block' : 'none'
+  })
+}
+</script>
+
+<script>
+let qty = 1
+let cart = []
+let currentProduct = {}
+let currentPay = "COD"
+
+const info = document.getElementById('info')
+const payment = document.getElementById('payment')
+const cartModal = document.getElementById('cartModal')
+const cartCount = document.getElementById('cartCount')
+const cartItems = document.getElementById('cartItems')
+
+
+const checkoutNextBtn = document.getElementById('checkoutNextBtn')
+
+const nameInput = document.getElementById('name')
+const phoneInput = document.getElementById('phone')
+const emailInput = document.getElementById('email')
+const addressInput = document.getElementById('address')
+
+
+const payDetails = document.getElementById('payDetails')
+const confirmPayBtn = document.getElementById('confirmPayBtn')
+const invoiceModal = document.getElementById('invoiceModal')
+const invoiceContent = document.getElementById('invoiceContent')
+
+function closeModal(){
+  document.getElementById('productModal').style.display = 'none'
+  document.querySelector('.modal-close-outside').style.display = 'none'
+  document.getElementById('pageBlur').classList.remove('blur')
+}
+
+function changeQty(val){
+  qty = Math.max(1, qty + val)
+  document.getElementById('qty').innerText = qty
+}
+
+function addToCart(){
+  cart.push({
+    title: currentProduct.title,
+    price: currentProduct.price,
+    qty
+  })
+  updateCart()
+  closeModal()
+}
+
+function proceedToForm(){
+  cart = [{
+    title: currentProduct.title,
+    price: currentProduct.price,
+    qty
+  }]
+  updateCart()
+  closeModal()
+  resetInfoForm()
+  info.style.display = 'flex'
+}
+
+function updateCart(){
+  cartCount.innerText = cart.length
+  cartItems.innerHTML = cart.map(i=>`
+    <div class="cart-item">
+      <span>${i.title} × ${i.qty}</span>
+      <b>$${i.price * i.qty}</b>
+    </div>
+  `).join('')
+}
+
+function openCart(){ cartModal.style.display = 'flex' }
+
+function checkoutCart(){
+  closeAll()
+  resetInfoForm()
+  info.style.display = 'flex'
+}
+
+function resetInfoForm(){
+  nameInput.value = ''
+  phoneInput.value = ''
+  emailInput.value = ''
+  addressInput.value = ''
+  validateInfo()
+}
+
+function validateInfo(){
+  let valid = true
+
+  if(nameInput.value === ""){
+    nameError.style.display = "none"
+    valid = false
+  }
+  else if(!nameInput.checkValidity()){
+    nameError.innerText = "Name must be at least 3 characters"
+    nameError.style.display = "block"
+    valid = false
+  }else{
+    nameError.style.display = "none"
+  }
+
+  if(phoneInput.value === ""){
+    phoneError.style.display = "none"
+    valid = false
+  }
+  else if(!phoneInput.checkValidity()){
+    phoneError.innerText = "Enter valid Pakistani number (03XXXXXXXXX)"
+    phoneError.style.display = "block"
+    valid = false
+  }else{
+    phoneError.style.display = "none"
+  }
+
+  if(emailInput.value === ""){
+    emailError.style.display = "none"
+    valid = false
+  }
+  else if(!emailInput.checkValidity()){
+    emailError.innerText = "Enter a valid email address"
+    emailError.style.display = "block"
+    valid = false
+  }else{
+    emailError.style.display = "none"
+  }
+
+  if(addressInput.value === ""){
+    addressError.style.display = "none"
+    valid = false
+  }
+  else if(!addressInput.checkValidity()){
+    addressError.innerText = "Address must be at least 10 characters"
+    addressError.style.display = "block"
+    valid = false
+  }else{
+    addressError.style.display = "none"
+  }
+
+  checkoutNextBtn.classList.toggle("disabled", !valid)
+}
+
+
+[nameInput, phoneInput, emailInput, addressInput].forEach(i=>{
+  i.addEventListener('input', validateInfo)
+  i.addEventListener('blur', validateInfo)
+})
+
+function openPayment(){
+  if(checkoutNextBtn.classList.contains('disabled')) return
+  info.style.display = 'none'
+  payment.style.display = 'flex'
+}
+const paymentFields = {
+  COD: '',
+  Easypaisa: `
+    <input id="epPhone" placeholder="Easypaisa Number" pattern="^03[0-9]{9}$" required>
+    <input id="epPin" type="password" placeholder="PIN (4 digits)" pattern="^[0-9]{4}$" required>
+  `,
+  JazzCash: `
+    <input id="jcPhone" placeholder="JazzCash Number" pattern="^03[0-9]{9}$" required>
+    <input id="jcPin" type="password" placeholder="PIN (4 digits)" pattern="^[0-9]{4}$" required>
+  `,
+  Card: `
+    <input id="cardName" placeholder="Card Holder Name" required>
+    <input id="cardNumber" placeholder="Card Number" pattern="^[0-9]{16}$" required>
+    <input id="cardExpiry" placeholder="MM/YY" pattern="^(0[1-9]|1[0-2])\\/([0-9]{2})$" required>
+    <input id="cardCVV" type="password" placeholder="CVV" pattern="^[0-9]{3,4}$" required>
+  `,
+  HBL: `
+    <input id="hblAcc" placeholder="HBL Account Number" pattern="^[0-9]{10,16}$" required>
+    <input id="hblPin" type="password" placeholder="PIN (4 digits)" pattern="^[0-9]{4}$" required>
+  `
+}
+
+function selectPay(el,type){
+  currentPay = type
+  document.querySelectorAll('.pay-card').forEach(p=>p.classList.remove('active'))
+  el.classList.add('active')
+
+  payDetails.innerHTML = paymentFields[type] || ''
+  confirmPayBtn.disabled = type !== 'COD'
+
+  if(type !== 'COD'){
+    const inputs = payDetails.querySelectorAll('input')
+
+    inputs.forEach(input=>{
+      const error = document.createElement('span')
+      error.className = 'error'
+      input.after(error)
+
+      input.addEventListener('input',()=>{
+        if(!input.checkValidity()){
+          error.innerText = "Invalid input"
+        }else{
+          error.innerText = ""
+        }
+
+        confirmPayBtn.disabled =
+          !Array.from(inputs).every(i=>i.checkValidity())
+      })
+    })
+  }
+}
+
+function confirmOrder(){
+  invoiceContent.innerHTML = `
+    <h4>Customer Details</h4>
+    Name: ${nameInput.value}<br>
+    Phone: ${phoneInput.value}<br>
+    Email: ${emailInput.value}<br>
+    Address: ${addressInput.value}<br><br>
+
+    <h4>Items</h4>
+    ${cart.map(i=>`${i.title} × ${i.qty} = $${i.price*i.qty}`).join('<br>')}<br><br>
+
+    <h4>Payment</h4>
+    ${currentPay}<br><br>
+
+    <div class="total">
+      Total: $${cart.reduce((t,i)=>t+(i.price*i.qty),0)}
+    </div>
+  `
+
+  closeAll()
+  invoiceModal.style.display = 'flex'
+  cart = []
+  updateCart()
+}
+
+function closeAll(){
+  document.querySelectorAll('.modal').forEach(m=>m.style.display='none')
+  payDetails.innerHTML=''
+  confirmPayBtn.disabled=true
+}
+
+function openQtyModal(el){
+  const card = el.closest('.card')
+
+  currentProduct = {
+    title: card.dataset.title,
+    price: Number(card.dataset.price),
+    desc: card.querySelector('.speciality').innerText,
+    img: card.querySelector('img').src
+  }
+
+  document.getElementById('mImg').src = currentProduct.img
+  document.getElementById('mTitle').innerText = currentProduct.title
+  document.getElementById('mDesc').innerText = currentProduct.desc
+  document.getElementById('mPrice').innerText = "$" + currentProduct.price
+
+  qty = 1
+  document.getElementById('qty').innerText = qty
+
+  document.getElementById('productModal').style.display = 'flex'
+  document.querySelector('.modal-close-outside').style.display = 'flex'
+  document.getElementById('pageBlur').classList.add('blur')
+}
+</script>
+
+<script>
+const ztPopup = document.getElementById("ztOfferPopup");
+const ztHeading = document.getElementById("ztOfferHeading");
+
+function ztOpenPopup(title){
+  ztHeading.innerText = title;
+  ztPopup.style.display = "flex";
+}
+
+function ztClosePopup(){
+  ztPopup.style.display = "none";
+}
+
+function ztValidate(name, email, mobile, message, successBox){
+  let valid = true;
+
+  const emailRx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const pkRx = /^(?:\+92|03)\d{9}$/;
+
+  [name,email,mobile,message].forEach(i =>
+    i.classList.remove("zt-input-error")
+  );
+
+  if(name.value.trim().length < 3){ name.classList.add("zt-input-error"); valid=false; }
+  if(!emailRx.test(email.value.trim())){ email.classList.add("zt-input-error"); valid=false; }
+  if(!pkRx.test(mobile.value.trim())){ mobile.classList.add("zt-input-error"); valid=false; }
+  if(message.value.trim().length < 10){ message.classList.add("zt-input-error"); valid=false; }
+
+  if(valid){
+    successBox.style.display = "block";
+    setTimeout(()=>{
+      name.form.reset();
+      successBox.style.display = "none";
+      ztClosePopup();
+    },2000);
+  }
+}
+
+/* Offer Form */
+document.getElementById("ztOfferForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  ztValidate(
+    ztOfferName,
+    ztOfferEmail,
+    ztOfferMobile,
+    ztOfferMessage,
+    this.querySelector(".zt-success-msg")
+  );
+});
+
+/* Contact Form */
+document.getElementById("ztContactForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  ztValidate(
+    ztContactName,
+    ztContactEmail,
+    ztContactMobile,
+    ztContactMessage,
+    this.querySelector(".zt-success-msg")
+  );
+});
+</script>
+<script>
+const services = [ 
+  {id:'acne',title:'Acne Treatment',subtitle:'Clinical acne control & scar reduction',img:'https://media.istockphoto.com/id/1446724608/photo/cropped-shot-of-a-young-womans-face-with-the-problem-of-acne-pimples-red-scars-on-cheeks-and.webp?a=1&s=612x612&w=0&k=20&c=ozr4LNvO88lxzhUfBaRYJwmqDm8dkoNDhftayuGWowQ=',
+   overview:`Our Acne Treatment program exfoliates and heals acne-prone skin, targeting active acne, blackheads, and blemishes. Treatment includes cleansing, extraction, topical therapy, and scar reduction techniques.`,
+   benefits:`- Controls acne and reduces scars
+- Unclogs pores
+- Improves skin texture
+- Enhances overall skin health
+- Reduces inflammation`,
+   duration:'30–60 min'},
+
+  {id:'massage',title:'Massage Therapy',subtitle:'Relaxation & muscle relief',img:'https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=500',
+   overview:`Massage therapy improves blood flow and deeply relaxes muscles. It is ideal for stress relief, post-workout recovery, and chronic tension.`,
+   benefits:`- Relieves tension and stress
+- Improves circulation
+- Enhances flexibility
+- Promotes relaxation
+- Reduces muscle soreness`,
+   duration:'45–60 min'},
+
+  {id:'physio',title:'Physiotherapy',subtitle:'Rehab & mobility treatment',img:'https://images.unsplash.com/photo-1682663947090-b35e4f2c23cc?w=500',
+   overview:`Physiotherapy focuses on rehabilitation, mobility restoration, and injury recovery. It includes exercises, manual therapy, and posture correction.`,
+   benefits:`- Reduces pain
+- Improves movement
+- Strengthens muscles
+- Restores function
+- Prevents injuries`,
+   duration:'30–60 min'},
+
+  {id:'electro',title:'Electrotherapy',subtitle:'Smooth hair-free skin',img:'https://media.istockphoto.com/id/937010460/photo/electronic-therapy-on-knee-used-to-treat-pain.jpg?s=612x612&w=0&k=20&c=6Zy1kTTkus-nYKo-cNw3mE9yKeWk9R2a6txkGtCCqeQ=',
+   overview:`Electrotherapy uses controlled electrical impulses to relieve pain, reduce inflammation, and stimulate muscle recovery.`,
+   benefits:`- Reduces pain
+- Improves circulation
+- Enhances muscle recovery
+- Reduces inflammation
+- Supports rehabilitation`,
+   duration:'20–45 min'},
+
+  {id:'cupping',title:'Cupping Therapy',subtitle:'Deep cleansing & glow',img:'https://plus.unsplash.com/premium_photo-1712588406397-89e673061467?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q3VwcGluZyUyMFRoZXJhcHl8ZW58MHx8MHx8fDA%3D',
+   overview:`Cupping Therapy stimulates blood flow, reduces muscle tension, and promotes relaxation. It is effective for detoxification and improving skin glow.`,
+   benefits:`- Improves circulation
+- Reduces muscle tension
+- Promotes relaxation
+- Enhances skin glow
+- Detoxifies the body`,
+   duration:'30 min'},
+
+  {id:'acup',title:'Acupuncture',subtitle:'Skin resurfacing treatment',img:'https://media.istockphoto.com/id/2201174137/photo/the-woman-is-receiving-acupuncture-dry-needle-treatment-by-a-therapist.webp?a=1&b=1&s=612x612&w=0&k=20&c=uI2K7PIxC6cG0yW0Z0CPaSHsr43JWCqsVUuuwAx2Fps=',
+   overview:`Acupuncture improves energy flow, reduces pain, and promotes healing. It targets specific points to stimulate body balance and well-being.`,
+   benefits:`- Reduces pain
+- Improves energy flow
+- Enhances healing
+- Balances body systems
+- Promotes relaxation`,
+   duration:'25–40 min'},
+
+  {id:'posture',title:'Posture Correction',subtitle:'Improve body alignment',img:'https://media.istockphoto.com/id/1273930780/photo/scoliosis-spine-curve-anatomy-posture-correction-chiropractic-treatment-back-pain-relief.webp?a=1&b=1&s=612x612&w=0&k=20&c=oYnTy-xG1sKkJoYq_81JpY7TagKXifof9U3c28V7PA8=',
+   overview:`Posture Correction exercises improve spinal alignment, reduce back and neck pain, and enhance overall posture.`,
+   benefits:`- Corrects spinal alignment
+- Reduces back/neck pain
+- Improves posture
+- Enhances flexibility
+- Prevents injuries`,
+   duration:'30–45 min'},
+
+  {id:'sports',title:'Sports Rehabilitation',subtitle:'Exfoliation & hydration',img:'https://plus.unsplash.com/premium_photo-1661963034989-13bdf385e5f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U3BvcnRzJTIwUmVoYWJpbGl0YXRpb258ZW58MHx8MHx8fDA%3D',
+   overview:`Sports Rehabilitation helps athletes recover from injuries, restore function, and improve performance through targeted therapy.`,
+   benefits:`- Speeds up recovery
+- Restores function
+- Reduces pain
+- Enhances performance
+- Prevents future injuries`,
+   duration:'40 min'},
+
+  {id:'ultrasound',title:'Ultrasound Therapy',subtitle:'Pain relief & tissue healing',img:'https://media.istockphoto.com/id/1286144353/photo/laser-hair-removing-epilation-on-legs.jpg?s=612x612&w=0&k=20&c=WvvQBOI5eK7-yLVSJlWBHYvdfG2yMSgyFnQkmptiwZ0=',
+   overview:`Ultrasound Therapy uses high-frequency sound waves to penetrate deep into muscles and tissues, promoting healing, reducing inflammation, and relieving pain. It's effective for soft tissue injuries, tendonitis, and post-surgery recovery.`,
+   benefits:`- Reduces pain and stiffness
+- Improves blood circulation
+- Accelerates tissue healing
+- Reduces inflammation
+- Relaxes tight muscles`,
+   duration:'20–30 min'},
+
+  {id:'occup',title:'Occupational Therapy',subtitle:'Improve daily function',img:'https://images.unsplash.com/photo-1581090122087-bdc8968e525f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8T2NjdXBhdGlvbmFsJTIwVGhlcmFweXxlbnwwfHx8fDE%3D',
+   overview:`Occupational Therapy helps patients improve daily activities, enhance mobility, and regain independence after injuries or illness.`,
+   benefits:`- Improves daily function
+- Enhances mobility
+- Promotes independence
+- Supports rehabilitation
+- Reduces strain`,
+   duration:'20–30 min'},
+
+  {id:'geriatric',title:'Geriatric Therapy',subtitle:'Care for older adults',img:'https://media.istockphoto.com/id/805054136/photo/wellness-takes-a-little-work.jpg?s=612x612&w=0&k=20&c=26Fb_QjBVHlh9855JL_X1ozpToswREPRCxng1iPb5wM=',
+   overview:`Geriatric Therapy focuses on maintaining mobility, balance, and overall health in older adults through personalized exercises and care.`,
+   benefits:`- Improves balance
+- Enhances mobility
+- Reduces fall risk
+- Supports independence
+- Maintains health`,
+   duration:'15–20 min'},
+
+  {id:'skin',title:'Skin Consultation',subtitle:'Personalized skin care advice',img:'https://media.istockphoto.com/id/1326140218/photo/treatment-of-ulcers-from-chickenpox-varicella-with-medical-cream.jpg?s=612x612&w=0&k=20&c=CszQjHyslteJAWFAxQgUb-m6yPaaPbw-FWJbonHLEqU=',
+   overview:`Professional skin assessment, recommendations, and advice tailored for your skin type and concerns. Covers lifestyle, products, and treatment plans.`,
+   benefits:`- Identifies skin issues
+- Suggests treatments
+- Improves skin health
+- Personalized care
+- Optimizes skincare routine`,
+   duration:'20 min'}
+];
+
+const gallery = document.getElementById('gallery');
+
+services.forEach((service, index)=>{
+  const article = document.createElement('article');
+  article.className = 'card fade-down';
+  article.style.transitionDelay = `${index * 0.1}s`;
+  article.innerHTML = `
+    <div class="card-media"><img src="${service.img}" alt="${service.title}"></div>
+    <div class="card-body">
+      <div class="card-title">${service.title}</div>
+      <div class="card-text"><strong>${service.subtitle}</strong></div>
+    </div>`;
+  article.addEventListener('click', ()=>openModal(service));
+  gallery.appendChild(article);
+});
+
+const observer = new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    }
+  });
+},{threshold:0.2});
+
+document.querySelectorAll('.fade-down').forEach(card=>{
+  observer.observe(card);
+});
+
+// **Updated modal references with galModal prefix**
+const galModalWrap = document.getElementById('galModalWrap');
+const galModalTitle = document.getElementById('galModalTitle');
+const galModalSubtitle = document.getElementById('galModalSubtitle');
+const galModalContent = document.getElementById('galModalContent');
+
+function openModal(service){
+  galModalTitle.innerText = service.title;
+  galModalSubtitle.innerText = service.subtitle;
+  galModalContent.innerHTML = `
+    <p><strong>Overview:</strong><br>${service.overview}</p>
+    <p><strong>Benefits:</strong><br>${service.benefits.replace(/- /g,'• ')}</p>
+    <p><strong>Duration:</strong> ${service.duration}</p>`;
+  galModalWrap.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+function closeGalModal(){
+  galModalWrap.style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+// Close on clicking close button
+galModalClose.addEventListener('click', closeGalModal);
+
+// Close on clicking outside modal
+galModalWrap.addEventListener('click', e => {
+  if(e.target === galModalWrap) closeGalModal();
+});
+
+// Close on pressing Escape
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape') closeGalModal();
+});
+</script>
+<script>
+  const carousel = document.getElementById('videoCarousel');
+
+  carousel.addEventListener('slide.bs.carousel', function () {
+    const videos = carousel.querySelectorAll('video');
+    videos.forEach(video => {
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+
+  carousel.addEventListener('slid.bs.carousel', function () {
+    const activeVideo = carousel.querySelector('.carousel-item.active video');
+    if (activeVideo) {
+      activeVideo.play();
+    }
+  });
+
+  // autoplay first video
+  window.addEventListener('load', () => {
+    const firstVideo = carousel.querySelector('.carousel-item.active video');
+    if (firstVideo) firstVideo.play();
+  });
+</script>
+<script>
+document.querySelectorAll(".contact-form").forEach(form => {
+  const name = form.querySelector(".name");
+  const email = form.querySelector(".email");
+  const msg = form.querySelector(".message");
+  const success = form.querySelector(".success-msg");
+
+  // Validation function
+  function validate(input, rule) {
+    const err = input.nextElementSibling;
+    if (!rule) {
+      input.classList.add("is-invalid");
+      input.classList.remove("is-valid");
+      err.style.display = "block";
+      return false;
+    } else {
+      input.classList.remove("is-invalid");
+      input.classList.add("is-valid");
+      err.style.display = "none";
+      return true;
+    }
+  }
+
+  // Real-time validation
+  name.addEventListener("input", () => validate(name, name.value.trim().length >= 3));
+  email.addEventListener("input", () => validate(email, /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)));
+  msg.addEventListener("input", () => validate(msg, msg.value.trim().length > 5));
+
+  // Form submit
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+
+    const validName = validate(name, name.value.trim().length >= 3);
+    const validEmail = validate(email, /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value));
+    const validMsg = validate(msg, msg.value.trim().length > 5);
+
+    if (validName && validEmail && validMsg) {
+      // Show success message
+      success.classList.remove("d-none");
+
+      // Auto-hide success message after 2.5s
+      setTimeout(() => success.classList.add("d-none"), 2500);
+
+      // Reset form
+      form.reset();
+
+      // Remove valid classes
+      form.querySelectorAll(".is-valid").forEach(i => i.classList.remove("is-valid"));
+    }
+  });
+});
+</script>
+</body>
+</html>
